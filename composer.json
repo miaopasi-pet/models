@@ -1,5 +1,5 @@
 {
-    "name": "miaopasi/migrations",
+    "name": "miaoka/models",
     "description": "miaopasi database migration.",
     "keywords": ["pet", "pet companions ", "pet community"],
     "license": "MIT",
@@ -32,5 +32,14 @@
         "pint": [
             "./vendor/bin/pint --config=pint.json"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.com/miaoka/"
+        },
+        {
+            "packagist.org": false
+        }
+    ]
 }
